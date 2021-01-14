@@ -1,10 +1,10 @@
 //+------------------------------------------------------------------+
-//|                                                        Robot.mq4 |
-//|                                                     AmirofTrades |
-//|                                             https://www.mql5.com |
+//|                                    DonchainChannelBotMadMaqz.mq4 |
+//|                                                     MadMaqzTeam  |
+//|                                           a.safari1380@gmail.com |
 //+------------------------------------------------------------------+
-#property copyright "AmirofTrades"
-#property link      "https://www.mql5.com"
+#property copyright "Amir Safari , Mad Maqz Team "
+#property link      "a.safari1380@gmail.com"
 #property version   "1.00"
 #property strict
 //+------------------------------------------------------------------+
@@ -46,7 +46,7 @@ void OnDeinit(const int reason)
 void OnTick()
   {
   
- 
+
 //Detect price 
 price = Bid;
 double Movingaverage  = iMA(NULL,0,200,0,MODE_EMA,PRICE_CLOSE,0);

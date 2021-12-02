@@ -89,7 +89,6 @@ if(Bid<OldButtom - 0.00010){
      if(NewBar(PERIOD_M30)) {
       OldTop = iHigh(Symbol(),Period(),iHighest(Symbol(),Period(),MODE_HIGH,20,0));
    OldButtom = iLow(Symbol(),Period(),iLowest(Symbol(),Period(),MODE_LOW,20,0));
-     Alert("Top Price is:"+ OldTop + "Buttom Price is:"+OldButtom);
    }
   }
   bool NewBar(int period) {

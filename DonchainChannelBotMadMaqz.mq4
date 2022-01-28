@@ -1,9 +1,9 @@
 //+------------------------------------------------------------------+
-//|                                    DonchainChannelBotMadMaqz.mq4 |
-//|                                                     MadMaqzTeam  |
+//|                                    DonchainChannelBot.mq4        |
+//|                                                                  |
 //|                                           a.safari1380@gmail.com |
 //+------------------------------------------------------------------+
-#property copyright "Amir Safari , Mad Maqz Team "
+#property copyright "Amir Safari"
 #property link      "a.safari1380@gmail.com"
 #property version   "1.00"
 #property strict
